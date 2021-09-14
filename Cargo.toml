@@ -1,0 +1,15 @@
+[package]
+name = "silver-waffle"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.44"
+axum = "0.2.4"
+crossbeam-channel = "0.5.1"
+env_logger = "0.9.0"
+log = "0.4.14"
+serde_json = "1.0.67"
+tokio = {version="1.11.0", features=["macros", "rt-multi-thread"]}
